@@ -110,7 +110,7 @@ class Board:
                 removed_castle_right |= BKING_SHORT
 
         # HANDLE CASTLING
-        # CHECK IF KING MADE A 2SQR MOVE
+        # CHECK IF KING MADE A 2SQR MOVE (rohan)
         if abs(original_piece) == WKING and abs(fy - ty) == 2:
             # SHORT
             if ty == 6:
